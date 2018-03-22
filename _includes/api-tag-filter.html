@@ -93,7 +93,6 @@
          {% endif %}
 
          <td align="center">
-
            <form>
            <strong>Tag(s):</strong>
            <select name="filter" id="tagfilter" onchange="filterbytag();">
@@ -106,7 +105,6 @@
                <option value="{{ nav.url }}"{% if nav.label == site.tag %} selected{% endif %}>{{ nav.label }}</option>
            {% endfor %}
            </select>
-
          </td>
 
          {% if listing_type == 'topic' %}
