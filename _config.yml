@@ -1,10 +1,10 @@
-title: Streamdata API Gallery - 1Forge
+title: Streamdata API Gallery - 
 description: A gallery of APIs to demonstrate what is possible when it comes to making data, content, and algorithms more real time, and event-driven as part of the API economy.
 url: 1forge.streamdata.gallery
-tag: 1Forge
+tag: 
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery
+github_user: streamdata-gallery-entities
 github_repo: 1forge
 github_branch: master
 collections:

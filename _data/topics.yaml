@@ -2075,11 +2075,11 @@
   image: teams.png
   description: The gallery section containing Teams API providers.
   paths: 62
-- label: 1Forges
-  slug: 1forges
-  url: http://1forges.api.gallery.streamdata.io
-  image: 1forges.png
-  description: The gallery section containing 1Forges API providers.
+- label: Templates
+  slug: templates
+  url: http://templates.api.gallery.streamdata.io
+  image: templates.png
+  description: The gallery section containing Templates API providers.
   paths: 47
 - label: Tenants
   slug: tenants
