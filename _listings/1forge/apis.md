@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "648546"
 tags: 1Forge
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/1forge/master/_listings/1forge/apis.md
 specificationVersion: "0.14"
 apis:
@@ -16,7 +16,7 @@ apis:
   x-api-slug: 1forge
   description: Get quotes for specific currency pair(s).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/1forge-logo.png
-  humanURL: https://1forge.com
+  humanURL: http://1forge.com
   baseURL: https://forex.1forge.com/1.0.3///quotes
   tags: Quotes
   properties:
@@ -29,7 +29,7 @@ apis:
   description: Get a list of currency symbols to use when making calls to the other
     APIs.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/1forge-logo.png
-  humanURL: https://1forge.com
+  humanURL: http://1forge.com
   baseURL: https://forex.1forge.com/1.0.3///symbols
   tags: Symbols
   properties:
@@ -41,7 +41,7 @@ apis:
   x-api-slug: 1forge
   description: Converts between to types of currency and returns the current results.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/1forge-logo.png
-  humanURL: https://1forge.com
+  humanURL: http://1forge.com
   baseURL: https://forex.1forge.com/1.0.3///convert
   tags: Currency, Conversion
   properties:
@@ -53,7 +53,7 @@ apis:
   x-api-slug: 1forge
   description: Checks to see if a financial market is open or not.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/1forge-logo.png
-  humanURL: https://1forge.com
+  humanURL: http://1forge.com
   baseURL: https://forex.1forge.com/1.0.3///market_status
   tags: Markets, Status
   properties:
@@ -65,7 +65,7 @@ apis:
   x-api-slug: 1forge
   description: Returns the current quota for the API consumer.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/1forge-logo.png
-  humanURL: https://1forge.com
+  humanURL: http://1forge.com
   baseURL: https://forex.1forge.com/1.0.3///quota
   tags: Management, Quota, Usage
   properties:
@@ -76,7 +76,7 @@ apis:
   description: Exchange Rate API, Currency Conversion API and Realtime Forex Quote
     API. Serving realtime tick data for over 500 forex currency pairs and commodities.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/1forge-logo.png
-  humanURL: https://1forge.com
+  humanURL: http://1forge.com
   baseURL: https://forex.1forge.com/1.0.3/
   tags: 1Forge
   properties:
@@ -105,6 +105,8 @@ x-common:
   url: https://1forge.com/register
 - type: x-terms-of-service
   url: https://1forge.com/forex-data-api/terms-of-use
+- type: x-website
+  url: http://1forge.com
 - type: x-website
   url: https://1forge.com
 include: []
